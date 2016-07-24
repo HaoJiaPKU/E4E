@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>E4E</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <description></description>
+    <servlet-name>TrainingRoadMap</servlet-name>
+    <servlet-class>servlet.TrainingRoadMap</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrainingRoadMap</servlet-name>
+    <url-pattern>/TrainingRoadMap</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <servlet-name>CourseContent</servlet-name>
+    <servlet-class>servlet.CourseContent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CourseContent</servlet-name>
+    <url-pattern>/CourseContent</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <servlet-name>TrainingRoadPlan</servlet-name>
+    <servlet-class>servlet.TrainingRoadPlan</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TrainingRoadPlan</servlet-name>
+    <url-pattern>/TrainingRoadPlan</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <servlet-name>CourseBriefInfo</servlet-name>
+    <servlet-class>servlet.CourseBriefInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CourseBriefInfo</servlet-name>
+    <url-pattern>/CourseBriefInfo</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
