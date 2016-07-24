@@ -1,4 +1,7 @@
 *.class
 *.jar
 
+.classpath
 .DS_Store
+
+/settings
