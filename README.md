@@ -1,4 +1,5 @@
-# E4E Dynamic Web Project
+# E4E
+	Dynamic Web Project
 
 ### Server
 	apache-tomcat-7.0.63
