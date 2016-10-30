@@ -79,7 +79,7 @@
 								<option value="P3/P4">P3/P4</option>
 								<option value="M1+">M1+</option>
 							</select>
-						
+							
 							<label class="control-label">Current Job:</label>
 							<select id="sourceJob" class="form-control" style="width:200px;">
 								<option value="通讯">通讯</option>
